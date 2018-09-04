@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:background="#0ED8F0">
+	
+	<TextView
+		android:text="SMK FADILAH"
+		android:gravity="center"
+		android:textSize="30sp"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:textColor="#FFFFFF"
+		android:textStyle="bold"/>
+
+	<TextView
+		android:text="Create By Rizsyad"
+		android:gravity="center"
+		android:textSize="14sp"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:textColor="#FFFFFF"
+		android:textStyle="bold"/>
+
+	<Button
+		android:onClick="Diagram_persen"
+		android:layout_height="wrap_content"
+		android:text="Diagram Persen"
+		android:layout_width="wrap_content"
+		android:textColor="#FFFFFF"/>
+
+	<Button
+		android:onClick="Diagram_kuadrat"
+		android:layout_height="wrap_content"
+		android:text="Diagram derajat"
+		android:layout_width="wrap_content"
+		android:textColor="#FFFFFF"/>
+
+	<Button
+		android:onClick="Diagram_angka"
+		android:layout_height="wrap_content"
+		android:text="Diagram angka ( biasa )"
+		android:layout_width="wrap_content"
+		android:textColor="#FFFFFF"/>
+
+</LinearLayout>
+

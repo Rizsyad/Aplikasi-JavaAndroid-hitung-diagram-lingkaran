@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="number"
+		android:ems="12"
+		android:layout_width="match_parent"
+		android:hint="Masukan data pertama (°)"
+		android:id="@+id/persen1"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="number"
+		android:ems="12"
+		android:layout_width="match_parent"
+		android:hint="Masukan data kedua (°)"
+		android:id="@+id/persen2"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="number"
+		android:ems="12"
+		android:layout_width="match_parent"
+		android:hint="Masukan data ketiga (°)"
+		android:id="@+id/persen3"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="number"
+		android:ems="12"
+		android:layout_width="match_parent"
+		android:hint="Masukan data ke empat (°)"
+		android:id="@+id/persen4"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="number"
+		android:ems="12"
+		android:layout_width="match_parent"
+		android:hint="Masukan data kelima (°)"
+		android:id="@+id/persen5"/>
+
+	<CheckBox
+		android:onClick="add"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Tambahan data"
+		android:id="@+id/add_data"/>
+
+	<EditText
+		android:id="@+id/total"
+		android:layout_height="wrap_content"
+		android:inputType="number"
+		android:ems="12"
+		android:layout_width="match_parent"
+		android:hint="masukan total data"/>
+
+	<EditText
+		android:id="@+id/tmbh_data1"
+		android:layout_height="wrap_content"
+		android:inputType="number"
+		android:ems="12"
+		android:layout_width="match_parent"
+		android:hint="masukan data tambahan (°)"
+		android:visibility="gone"/>
+
+	<EditText
+		android:id="@+id/tmbh_data2"
+		android:layout_height="wrap_content"
+		android:inputType="number"
+		android:ems="12"
+		android:layout_width="match_parent"
+		android:hint="masukan data tambahan "
+		android:visibility="gone"/>
+
+	<Button
+		android:onClick="hitung_persen"
+		android:layout_height="wrap_content"
+		android:text="hitung"
+		android:layout_width="match_parent"/>
+
+	<EditText
+		android:enabled="false"
+		android:layout_height="wrap_content"
+		android:inputType="textMultiLine"
+		android:layout_width="match_parent"
+		android:height="130dp"
+		android:id="@+id/hasil"/>
+
+	<Button
+		android:onClick="back"
+		android:layout_height="wrap_content"
+		android:text="Back"
+		android:layout_width="match_parent"/>
+
+</LinearLayout>
+
